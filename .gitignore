@@ -7,8 +7,6 @@ ci-artifacts/
 *.egg-info/
 build/
 dist/
-.env
-.env.*
 !.env.example
 *.log
 *.partial
@@ -57,3 +55,5 @@ engine-gpu-*.lock
 # Optional local prompt models, runtime binaries and private rewrite caches.
 /optional/
 *.gguf
+config.bat
+node_modules
